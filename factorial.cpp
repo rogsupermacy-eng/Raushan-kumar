@@ -2,13 +2,10 @@
 using namespace std;
 int main(){
 
-    int n,fact = 1;
-    cout<<"enter a number = ";
-    cin>>n;
-
+    int n = 5,fact = 1;
+    
     for(int i=1; i<=n; i++){
         fact = fact*i;
-
     }
     cout<<"Factorial = "<<fact<<endl;
     return 0;
